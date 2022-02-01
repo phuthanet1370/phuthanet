@@ -1,0 +1,201 @@
+.wrapper{
+
+    background-image: url('../img/about.jpg');
+  
+    height: 50vh;
+    background-size: cover;
+
+    background-attachment: fixed;
+    background-position: center;
+    opacity: 0.9;
+    display: flex;
+    justify-content: center;
+    color: white;
+    align-items: flex-end;
+    
+}
+.wrapper h2{
+    font-size: 40px;
+    font-family: 'Bebas Neue', cursive;
+    letter-spacing: 5px;
+    padding-bottom: 40px;
+}
+.content{
+
+    background-color: rgba(0, 0, 0, 0.055);
+}
+.box-content{
+    width: 90%;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding-bottom: 50px;
+    
+
+}
+.img{
+    
+    width: 300px;
+
+}
+.img img{
+    width: 100%;
+    padding-top: 50px;
+    
+
+}
+.box-content-1-txt{
+    font-family: 'Bebas Neue', cursive;
+    padding: 20px;
+    font-size: 25px;
+
+}
+.box-content-1-txt p{
+    /* font-family: 'Prompt'; */
+}
+.u-center{
+    margin-top: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.skills{
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    margin: 0px 50px;
+}
+.skill{
+    margin: 1em 0;
+    position: relative;
+    width: 20em;
+
+}
+.skill_type{
+    font-family: 'Bebas Neue', cursive;
+
+    font-weight: 300;
+    font-size: 1.2em;
+    text-transform: uppercase;
+    width: 5em;
+}
+.skill_bar, .skill_inner_bar{
+    height: .75em;
+}
+.skill_bar{
+    margin-top: 1em;
+    background-color: rgb(0, 0, 0);
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+}
+.skill_inner_bar{
+    animation:  fillbar 1s forwards;
+    transform: scaleX(0);
+    transform-origin:0 0 ;
+}
+.skill_innerbar-90{
+    width: 90%;
+    background-color: #eea16d;
+}
+.skill_innerbar-60{
+    width: 60%;
+    background-color: #eea16d;
+}
+.skill_innerbar-80{
+    width: 80%;
+    background-color: #eea16d;
+}
+.skill_innerbar-70{
+    width: 70%;
+    background-color: #eea16d;
+    
+}
+.progress{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 20px;
+    display: flex;
+    flex-wrap: wrap;
+
+    justify-content: center;
+
+}
+.pro-1{
+    margin: 10px;
+    width: 40%;
+    height: 200px;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.topic{
+    width: 100%;
+    text-align: center;
+    font-size: 30px;
+}
+.pro-1-img{
+    width: 50px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.pro-1-img img{
+    width: 100%;
+}
+@keyframes fillbar{
+    to{
+        transform: scaleX(1);
+    }
+}
+.progress{
+    width: 30em;
+}
+@media screen and (max-width:1200px) {
+    .banner-txt{
+  
+        font-size: 30px;
+       
+        
+    }
+    .progress{
+        margin-top: 50px;
+    }
+  
+
+    
+}
+@media screen and (max-width:768px) {
+    .banner-txt{
+  
+        font-size: 30px;
+       
+        
+    }
+    .skill_bar{
+        
+        margin-left: auto;
+        
+    }
+  
+
+    
+}
+@media screen and (max-width:400px) {
+
+    .skill_bar{
+   
+        margin-left: auto;
+        
+
+    }
+    
+   
+  
+
+    
+}

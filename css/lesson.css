@@ -1,0 +1,105 @@
+@font-face {
+    font-family: fcsave;
+    src: url("font/FC\ SaveSpace\ Regular\ ver\ 1.01.ttf");
+}
+.wrapper{
+    height: 500px;
+}
+video{
+    position: absolute;
+    width: 100%;
+    height: 500px;
+    z-index: -1;
+}
+.banner-txt{
+    color: white;
+    position: relative;
+    bottom: 100px;
+}
+.lesson-box{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+    font-family: 'Bebas Neue', cursive;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    /* align-items: center; */
+    
+}
+.lesson-box-1{
+    margin: 10px;
+    height: 600px;
+    width: 400px;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+
+}
+.mearge{
+    margin-top: 110px;
+    height: 500px;
+    width: 800px;
+}
+.lesson-box-1 img{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    z-index: -1;
+}
+.lesson-box-1>p{
+    position:relative;
+    z-index: 1;
+    font-size: 20px;
+    bottom: 50px;
+    left:90px;
+    color: rgb(255, 255, 255);
+ 
+}
+.line-lesson{
+    margin-top: 40px;
+    height: 5px;
+    width: 50%;
+    background-color: #eea16d;
+    box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px, rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px, rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;
+    
+}
+.lesson-1{
+    height: 5px;
+    width: 100%;
+    background-color: #eea16d;
+    box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px, rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px, rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;
+
+
+}
+.content-lesson{
+    font-family: fcsave;
+    height: 410px;
+    font-size: 30px;
+    padding: 0px 40px;
+    color: rgba(0, 0, 0, 0.61);
+
+}
+.content-lesson h3{
+    color: black;
+    font-weight: 100;
+    font-size: 30px;
+    padding: 20px;
+    text-align: center;
+    font-family: 'Bebas Neue', cursive;
+}
+.lesson-100{
+
+    margin-left: auto;
+    width: 50%;
+    background-color: red;
+}
+@media screen and (max-width:450px) {
+    .content-lesson{
+        font-size: 20px;
+    }
+
+    
+}

@@ -1,0 +1,262 @@
+@font-face {
+    font-family: fcsave;
+    src: url("font/FC\ SaveSpace\ Regular\ ver\ 1.01.ttf");
+}
+.wrapper{
+
+    background-image: url('../img/bas.jpg');
+  
+    height: 50vh;
+    background-size: cover;
+
+    background-attachment: fixed;
+    background-position: center;
+    opacity: 0.9;
+    display: flex;
+    justify-content: center;
+    color: white;
+    align-items: flex-end;
+    
+}
+.box-hobby{
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+    padding: 50px 0px;
+    font-family: fcsave;
+    font-size: 30px;
+    text-align: center;
+
+}
+.box-basket{
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Bebas Neue', cursive;
+  
+
+}
+.body-box-basket{
+    display: flex;
+    flex-wrap: wrap;
+}
+.box-basket-1{
+    margin-top: 50px;
+    width: 25%;
+
+    min-width: 20%;
+
+ 
+   
+}
+.box-basket-2{
+
+    width: 15%;
+    min-width: 23%;
+
+}
+.box-basket-3{
+    width: 50%;
+    min-width: 40%;
+    position: relative;
+    z-index: -1;
+    top:40px;
+}
+.name-1{
+    font-weight: 100;
+    font-size: 40px;
+
+}
+.name-2{
+    font-weight: 100;
+    font-size: 100px;
+
+}
+.line-basket{
+    height: 5px;
+    width: 70%;
+    background-color: #eea16d;
+    
+}
+.flex-basket{
+    margin-top: 30px;
+    display: flex;
+    
+   
+}
+.flex-basket-2{
+    margin-left: 100px;
+
+   
+}
+.flex-basket h1{
+    font-size: 20px;
+}
+.ft{
+    font-weight: 100;
+    font-size: 60px;
+}
+.ft b{
+    font-size: 20px;
+    letter-spacing: 2px;
+}
+.line-basket-2{
+    width: 90%;
+}
+.logo-nba{
+    margin-top: 40px;
+    width: 130px;
+    min-width: 130px;
+    height: 150px;
+
+}
+.logo-nba img{
+    width: 100%;
+    height: 100%;
+}
+.box-basket-2 {
+
+    display: flex;
+    
+}
+.font-nba{
+    margin-left: 50px;
+    font-size: 50px;
+    margin-top: 70px;
+   
+}
+
+.box-basket-3 img{
+  
+    width: 100%;
+    height: 100%;
+  
+}
+.flex-basket-3{
+    margin-top: 40px;
+}
+.flex-basket-3 h1{
+    margin-top: 10px;
+    font-weight: 100;
+    font-size: 20px;
+}
+.flex-basket-3 b{
+    color: rgba(0, 0, 0, 0.664);
+    font-weight: 10;
+}
+.foot-box-basket{
+    margin-top: 40px;
+    width: 100%;
+
+}
+.foot-box-basket-1{
+
+    width: 100%;
+    height: 50px;
+    background-color:  rgb(0, 0, 0);
+}
+.line-foot-1{
+    border-bottom: 1px solid  #eea16d;
+}
+.foot-box-basket-1{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    color: white;
+    font-size: 30px;
+    font-family: 'Bebas Neue', cursive;
+    padding-bottom: 10px;
+    padding-top: 20px;
+    justify-content: space-between;
+
+}
+.foot-box-basket-2{
+    padding-top: -20px;
+}
+.left-foot{
+    margin-left: 5%;
+}
+.flex-foot{
+    display: flex;
+    font-size: 20px;
+    margin-right: 50px;
+
+    
+}
+.flex-foot div{
+    padding: 0px 30px;
+   
+}
+.flex-foot-1 div{
+    position: relative;
+    bottom:10px;
+}
+.flex-foot h2{
+    
+    font-size: 30px;
+    font-weight: 100;
+}
+.foot-1{
+    margin-top: -50px;
+}
+.flex-foot-3 div{
+    color: black;
+}
+.flex-foot-3 h2{
+    position: relative;
+    bottom: 10px;
+    color: white;
+}
+
+@media screen and (max-width:1370px) {
+    .line-basket{
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .box-basket-1{
+        width: 100%;
+        text-align: center;
+    }
+    .flex-basket{
+        justify-content: center;
+    }
+    .box-basket-1{
+        justify-content: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+  
+}
+@media screen and (max-width:1020px) {
+    .flex-foot{
+        font-size: 20px;
+        margin-left: auto;
+        margin-top: 10px;
+        width: 90%;
+
+        margin-right: auto;
+       
+    }
+    .foot-box-basket-1{
+        height: 100%;
+        
+    }
+    .flex-foot h2{
+        font-size: 20px;
+      
+        
+    }
+    .flex-foot div{
+        text-align: center;
+        padding: 0px 5px;
+        width: 100%;
+       
+    }
+    .left-foot{
+        width: 100%;
+        text-align: center;
+    } 
+   
+}
